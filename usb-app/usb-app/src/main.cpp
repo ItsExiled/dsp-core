@@ -1,7 +1,7 @@
 #include <libusb-1.0/libusb.h>
 #include <iostream>
 
-int main() {
+int main () {
     libusb_context *ctx;
     libusb_device **list;
     ssize_t count;
